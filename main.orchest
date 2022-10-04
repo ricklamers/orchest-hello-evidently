@@ -1,0 +1,32 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "3af13de0-454c-4d71-96da-01db89be0b31": {
+            "environment": "1b17180f-f013-43b0-a14c-f4ef563f160a",
+            "file_path": "generate-drift.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    138,
+                    323.5
+                ]
+            },
+            "parameters": {},
+            "title": "Create drift report",
+            "uuid": "3af13de0-454c-4d71-96da-01db89be0b31"
+        }
+    },
+    "uuid": "f0d5c923-e078-4df5-9fa6-d9df624cd150",
+    "version": "1.2.2"
+}
